@@ -1,11 +1,15 @@
 form {
     font-family: 'Barlow Condensed', sans-serif;
     background-color: rgb(189, 228, 233);
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.options {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1em;
-    border-radius: 10px;
 }
 
 form div {
@@ -29,6 +33,15 @@ input {
 input[type='number'] {
     width: 10%;
 }
+
+input[type='submit'] {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    height: 35px;
+    width: 85px;
+    border-radius: 6px;
+}
+
 
 img {
     width: 100%;
@@ -63,6 +76,10 @@ h3 {
 
 @media screen and (min-width: 768px) {
     form {
+        text-align: start;
+    }
+    
+    .options {
         flex-direction: row;
         justify-content: space-between;
     }
