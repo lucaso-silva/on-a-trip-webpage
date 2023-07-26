@@ -47,7 +47,10 @@ img {
     width: 100%;
 }
 
-.plan-your-way, .top-destinations, .best-deals {
+.plan-your-way, 
+.top-destinations, 
+.best-deals, 
+.about-us {
     padding: 1em;
 }
 
@@ -72,6 +75,22 @@ h3 {
     font-family: 'Mynerve', cursive;
     font-weight: bold;
     margin-top: .5em;
+}
+
+.about-us > div {
+    background-color: rgb(189, 228, 233);
+    overflow: auto;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-us img {
+    display: none;
+}
+
+.subscribe {
+    clear: right;
 }
 
 @media screen and (min-width: 768px) {
@@ -118,5 +137,11 @@ h3 {
 
     .best-deals .cards div:nth-of-type(1) ~ div {
         margin-left: .5em;
+    }
+
+    .about-us img {
+        display: block;
+        float: right;
+        width: 250px;
     }
 }
