@@ -126,6 +126,10 @@ h3 {
         font-size: 1.15em;
     }
 
+em {
+    font-weight: bold;
+}
+
 .subscribe {
     clear: right;
 }
@@ -203,6 +207,10 @@ h3 {
 
     .about-us--content > p {
         font-size: 1.25em;
+    }
+
+    .about-us--content p:first-of-type {
+        margin-top: 1em;
     }
 
     .about-us h3 {

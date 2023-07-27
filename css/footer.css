@@ -1,22 +1,44 @@
 footer {
+    font-family: 'Barlow Condensed', sans-serif;
     background-image: url("../img/georgia-de-lotz-jHCXtfJ_2dA-unsplash.jpg");
     background-size: cover;
     background-position: center;
-    color: rgb(270, 270, 275);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    text-align: center;
     padding: 1.25em;
 }
 
-.logo-footer {
-    font-size: .85em;
-    font-weight: bold;
-    text-shadow: .65px .65px 1px rgb(112, 112, 54);
+footer .logo {
+    text-shadow: .65px .65px 1px rgb(10, 1, 48); 
     align-self: self-start;
+    margin-bottom: 1em;
 }
 
-.logo-footer span {
-    font-size: 1em;
+footer h3 {
+    color: rgb(10, 1, 48);
+    text-shadow: .65px .65px 1px rgb(270, 270, 275);
+    margin-bottom: .5em;
+}
+
+footer a {
+    text-decoration: none;
+    color:  rgb(270, 270, 275);
+    text-shadow: .65px .65px 1px rgb(10, 1, 48);
+}
+
+footer div {
+    margin-bottom: .5em;
+}
+
+footer li {
+    margin-bottom: .35em;   
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

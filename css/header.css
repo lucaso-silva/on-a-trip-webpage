@@ -20,6 +20,7 @@ header {
 }
 
 .logo {
+    color: rgb(270, 270, 275);
     font-family: 'Mynerve', cursive;
     font-size: 1.25em;
     font-weight: bold;
