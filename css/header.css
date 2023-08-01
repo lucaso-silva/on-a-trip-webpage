@@ -31,6 +31,20 @@ header {
     font-size: 1.15em;
 }
 
+.login {
+    text-decoration: none;
+    color: rgb(270, 270, 275);
+    margin-right: .75em;
+    transition: .5s;
+}
+
+.login:hover {
+    border: 1px solid rgb(270, 270, 275);
+    border-radius: 7.5px;
+    font-weight: 500;
+    padding: .25em .75em;
+}
+
 header nav ul {
     display: flex;
     justify-content: center;
@@ -41,6 +55,13 @@ header nav ul {
 nav a {
     text-decoration: none;
     color: rgb(270, 270, 275);
+    transition: .25s;
+}
+
+nav a:hover {
+    font-size: 1.15rem;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(270, 270, 275);
 }
 
 .second-row li:nth-of-type(2),.second-row li:nth-of-type(3) {

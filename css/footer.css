@@ -28,6 +28,11 @@ footer a {
     text-shadow: .65px .65px 1px rgb(10, 1, 48);
 }
 
+footer a:hover  {
+    font-size: 1.05em;
+    border-bottom: 1px solid rgb(270, 270, 275);
+}
+
 footer div {
     margin-bottom: .5em;
 }
