@@ -221,11 +221,11 @@ em {
     
     .options {
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     .options div:nth-child(1) {
-        width: 30%;
+        width: 35%;
     }
 
     .options div:nth-child(1) input {
@@ -234,7 +234,12 @@ em {
 
     .options div:nth-child(2),
     .options div:nth-child(3) {
-        width: 25%;
+        width: 22.5%;
+    }
+
+    .options div:nth-child(2) input,
+    .options div:nth-child(3) input {
+        width: 65%;
     }
 
     .options div:nth-child(4) {
