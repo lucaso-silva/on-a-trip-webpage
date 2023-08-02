@@ -40,7 +40,10 @@ input[type='submit'] {
     height: auto;
     width: auto;
     padding: .5em 1.25em;
+    background-color: rgb(189, 186, 186);
+    border: 1px solid rgb(189, 186, 186);
     border-radius: 6px;
+    transition: .5s;
 }
 
 input[type='submit']:hover {
@@ -239,6 +242,8 @@ em {
 
     .cards {
         display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
     .top-destinations div:nth-of-type(1)~div, .best-deals div:nth-of-type(1)~div {
@@ -254,7 +259,7 @@ em {
     }
 
     .best-deals .cards > div {
-        width: 33%;
+        width: 30%;
     }
 
     .best-deals .cards div:nth-of-type(1) ~ div {
