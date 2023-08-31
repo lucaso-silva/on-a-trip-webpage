@@ -4,15 +4,24 @@
 <p align="center"> See in the <a href="https://lucaso-silva.github.io/on-a-trip-webpage/"> link </a></p>
 
 ## Overview
-On a Trip is an unreal Travel packages website developed as one of the criteria of evaluation on the course of Web Development I.
+On a Trip is an unreal Travel packages website developed as one of the criteria of evaluation in the course of Web Development I.
 It was developed using HTML5 and CSS3. 
 
 > Status: Concluded 
-- Deadline: 08.02.23 ✅
+- Deadline: 08.02.23 ✔️
 ---
 
 ### Objectives
-
+- The webpage should be responsive ✅
+- Mobile-first design principles ✅
+- The desktop layout should have at least two columns ✅
+- The webpage should be well-designed:
+  - Use CSS flexbox and/or float/clear to design layout ✅
+  - Semantic HTML ✅
+  - CSS Animations used appropriately ✅
+  - All required information (or fake information) included ✅
+  - Attention to visual design, including contrast, proximity, alignment, repetition, and typography ✅
+  - Provide links to the source of all images used on your page ✅
 
 ## Built with
 - Semantic HTML5 markup
@@ -50,4 +59,8 @@ In addition to those I mentioned, there were other examples of using the pseudo-
 ---
 ### Useful resources
 - [CSS-Tricks Guides](https://css-tricks.com/guides/) - Useful guides to learn and consult about CSS custom properties.
+
+### 🏅 Acknowledgments
+- Instructor Adnan Reza, Langara College
+
 
